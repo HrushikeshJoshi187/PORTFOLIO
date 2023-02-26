@@ -165,25 +165,3 @@
 .root {
 	width: 100%;
 }
-
-/*
-	list of z-indices
-
-	class: testimonial_text_starting_quote
-	z-index: 1
-
-	class: testimonial_text_ending_quote_span
-	z-index: 1
-
-	class: navigation_section
-	z-index: 2
-
-	class: navigation_menu
-	z-index: 4
-
-	class: navigation_overlay
-	z-index: 3
-
-	class: navigation_company_name_and_logo
-	z-index: 4
-*/
