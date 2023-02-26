@@ -1,0 +1,126 @@
+.product_card_section {
+	width: 100%;
+}
+
+.product_card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	margin: 30px;
+
+	border-style: solid;
+	border-width: 3px;
+	border-color: var(--products_section_card_border_color);
+	border-radius: 15px;
+
+	box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
+	background-color: var(--products_section_card_background_color);
+
+	cursor: pointer;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	transition: background-color 0.33s, color 0.33s;
+}
+
+.product_card_active {
+	background-color: var(--products_section_card_active_background_color);
+}
+
+.product_image {
+	width: 100%;
+	height: 300px;
+
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 15px;
+}
+
+#product_image_0 {
+	background-image: url('../../static/images/hygrometer_product.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+#product_image_1 {
+	background-image: url('../../static/images/pressure_gauge_product.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+#product_image_2 {
+	background-image: url('../../static/images/temperature_sensor_product.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+}
+
+#product_image_3 {
+	background-image: url('../../static/images/temperature_controller_product.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+#product_image_4 {
+	background-image: url('../../static/images/data_logger_product.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.product_name {
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+
+	font-family: var(--font_family_1);
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-align: center;
+
+	color: var(--products_section_card_name_color);
+}
+
+.product_name_active {
+	color: var(--products_section_card_name_active_color);
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1220px) {
+	.product_card_section {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1320px) {
+	.product_card_section {
+		width: 33.33%;
+	}
+}
+
+@media only screen and (min-width: 1320px) {
+	.product_card_section {
+		width: 33.33%;
+	}
+}
+
+@media (hover: hover) {
+	.product_card:hover {
+		background-color: var(--products_section_card_hover_background_color);
+	}
+
+	.product_card:hover .product_name {
+		color: var(--products_section_card_name_hover_color);
+	}
+}

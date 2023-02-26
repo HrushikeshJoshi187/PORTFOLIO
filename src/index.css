@@ -1,0 +1,189 @@
+@font-face {
+	font-family: gill_sans;
+	src: url('../static/fonts/gill_sans/gill_sans_medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: raleway;
+	src: url('../static/fonts/raleway/raleway.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: open_sans;
+	src: url('../static/fonts/open_sans/open_sans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: open_sans-italic;
+	src: url('../static/fonts/open_sans/open_sans-italic.ttf') format('truetype');
+}
+
+* {
+	/* colors */
+	--color_0: rgba(0, 0, 0, 0);
+
+	--color_1: rgba(0, 0, 0, 1);
+
+	--color_2: rgba(255, 255, 255, 1);
+
+	--color_3: rgba(34, 34, 34, 1);
+	--color_5: rgba(68, 68, 68, 1);
+	--color_9: rgba(17, 17, 17, 1);
+	--color_7: rgba(72, 72, 72, 1);
+	--color_13: rgba(85, 85, 85, 1);
+	--color_12: rgba(100, 105, 106, 1);
+	--color_10: rgba(153, 153, 153, 1);
+	--color_15: rgb(206, 212, 218);
+
+	--color_4: rgba(52, 152, 219, 1);
+	--color_11: rgba(22, 179, 221, 1);
+	--color_8: rgba(225, 240, 250, 1);
+	--color_6: rgba(247, 251, 254, 1);
+	--color_14: rgb(95, 174, 227);
+
+	/* section_heading_colors */
+	--section_heading_text_color: var(--color_3);
+	--section_heading_line_background_color: var(--color_4);
+	--section_heading_description_text_color: var(--color_5);
+
+	/* section_background_colors */
+	--section_background_color_1: var(--color_2);
+	--section_background_color_2: var(--color_6);
+
+	/* navigation_section*/
+	--navigation_section_company_name_0_color: var(--color_11);
+	--navigation_section_company_name_1_color: var(--color_12);
+	--navigation_section_link_color: var(--color_13);
+	--navigation_section_link_active_color: var(--color_4);
+	--navigation_section_menu_bar_background_color: var(--color_12);
+	--navigation_section_overlay_background_color: var(--color_2);
+
+	/* header_section */
+	--header_section_heading_color: var(--color_1);
+	--header_section_description_color: var(--color_7);
+	--header_section_quick_link_button_border_color: var(--color_4);
+	--header_section_quick_link_button_color: var(--color_4);
+	--header_section_quick_link_button_background_color: var(--color_2);
+	--header_section_quick_link_button_active_color: var(--color_2);
+	--header_section_quick_link_button_active_background_color: var(--color_4);
+
+	/* services_section */
+	--services_section_service_border_color: var(--color_4);
+	--services_section_service_color: var(--color_1);
+	--services_section_service_background_color: var(--color_2);
+	--services_section_service_hover_color: var(--color_2);
+	--services_section_service_hover_background_color: var(--color_14);
+	--services_section_service_active_color: var(--color_2);
+	--services_section_service_active_background_color: var(--color_4);
+	--services_section_category_border_color: var(--color_4);
+	--services_section_category_background_color: var(--color_2);
+	--services_section_category_header_background_color: var(--color_2);
+	--services_section_category_header_hover_background_color: var(--color_14);
+	--services_section_category_header_active_background_color: var(--color_4);
+	--services_section_category_name_color: var(--color_4);
+	--services_section_category_name_hover_color: var(--color_2);
+	--services_section_category_name_active_color: var(--color_2);
+	--services_section_expand_collapse_symbol_bar_background_color: var(--color_4);
+	--services_section_expand_collapse_symbol_bar_hover_background_color: var(--color_2);
+	--services_section_expand_collapse_symbol_bar_active_background_color: var(--color_2);
+	--services_section_sub_category_name_color: var(--color_1);
+
+	/* products_section */
+	--products_section_card_border_color: var(--color_4);
+	--products_section_card_background_color: var(--color_2);
+	--products_section_card_active_background_color: var(--color_4);
+	--products_section_card_hover_background_color: var(--color_14);
+	--products_section_card_name_color: var(--color_9);
+	--products_section_card_name_active_color: var(--color_2);
+	--products_section_card_name_hover_color: var(--color_2);
+
+	/* about_us_section*/
+	--about_us_section_company_description_color: var(--color_1);
+
+	/* testimonial_section */
+	--testimonial_section_card_background_color: var(--color_2);
+	--testimonial_section_card_text_color: var(--color_5);
+	--testimonial_section_card_text_quotation_color: var(--color_8);
+	--testimonial_section_card_owner_name_color: var(--color_9);
+	--testimonial_section_card_owner_details_color: var(--color_10);
+	--testimonial_section_pagination_page_indicator_border_color: var(--color_4);
+	--testimonial_section_pagination_page_indicator_background_color: var(--color_2);
+	--testimonial_section_pagination_page_indicator_active_background_color: var(--color_4);
+
+	/* contact_us_section */
+	--contact_us_section_selected_item_border_color: var(--color_4);
+	--contact_us_section_selected_item_color: var(--color_2);
+	--contact_us_section_selected_item_background_color: var(--color_4);
+	--contact_us_section_input_color: var(--color_3);
+	--contact_us_section_input_border_color: var(--color_15);
+	--contact_us_section_input_active_border_color: var(--color_4);
+	--contact_us_section_no_selected_items_color: var(--color_12);
+	--contact_us_send_email_button_hover_color: var(--color_2);
+	--contact_us_send_email_button_hover_background_color: var(--color_14);
+
+	/* fonts */
+	--font_family_0: sans-serif;
+	--font_family_1: raleway;
+	--font_family_2: open_sans;
+	--font_family_3: open_sans-italic;
+	--font_family_4: gill_sans;
+
+	margin: 0px;
+	outline: 0px;
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+	background-color: var(--color_0);
+	color: var(--color_1);
+
+	text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#html {
+	overflow-x: hidden !important;
+}
+
+.body {
+	/*
+    scroll-bar width
+    calc(100vw - 100%);
+
+    viewport width without scroll-bar
+    calc(100vw  - 100vW - 100%)
+  */
+	width: calc(100vw - (100vw - 100%));
+	height: 100vh;
+
+	overflow-x: hidden;
+
+	background-color: var(--color_2);
+}
+
+.root {
+	width: 100%;
+}
+
+/*
+	list of z-indices
+
+	class: testimonial_text_starting_quote
+	z-index: 1
+
+	class: testimonial_text_ending_quote_span
+	z-index: 1
+
+	class: navigation_section
+	z-index: 2
+
+	class: navigation_menu
+	z-index: 4
+
+	class: navigation_overlay
+	z-index: 3
+
+	class: navigation_company_name_and_logo
+	z-index: 4
+*/

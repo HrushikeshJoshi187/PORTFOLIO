@@ -1,192 +1,168 @@
-*
-{
-	box-sizing : border-box;
-	margin : 0px;
-	padding : 0px;
-	font-family : Georgia,"Times New Roman",Times,serif;
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Brush Script MT', cursive, Arial, Helvetica, sans-serif;
 }
 
-html
-{
-	width : 100%;
-	height : 100%;
-	scroll-behavior : smooth;
+html {
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
 }
 
-body
-{
-	width : 100%;
-	height : 100%;
+body {
+	width: 100%;
+	height: 100%;
 }
 
-ul 
-{
-	padding-left : 15px;
+ul {
+	padding-left: 15px;
 }
 
 /*******************************************************************************************************************************************************/
 
-.BODY
-{
-	width : 100%;
-	padding-left : 40px;
-	padding-right : 40px;
+.BODY {
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 /*******************************************************************************************************************************************************/
 
-.SECTION
-{
-	width:100%;
-	display : block;
+.SECTION {
+	width: 100%;
+	display: block;
 	clear: both;
-	padding-top : 20px;
+	padding-top: 20px;
 }
 
-.SECTION_HEAD
-{
-	width:100%;
-	font-weight : bold;
+.SECTION_HEAD {
+	width: 100%;
+	font-weight: bold;
 }
 
-.SECTION_HEAD_RULE
-{
-	width : 100%;
-	border-top : 1px;
-	border-left : 0px;
-	border-bottom : 0px;
-	border-right : 0px;
-	border-style : solid;
-	border-color : hsla(0,100%,0%,1);	
-  border-radius: 5px;
-	margin-top : 2px;
-	margin-left : 0px;
-	margin-bottom : 5px;
-	margin-right : 0px;
+.SECTION_HEAD_RULE {
+	width: 100%;
+	border-top: 1px;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: hsla(0, 100%, 0%, 1);
+	border-radius: 5px;
+	margin-top: 2px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 0px;
 }
 
 /*******************************************************************************************************************************************************/
 
-.HEAD_RULE
-{
-	clear:both;
-	width : 100%;
-	border-top : 1px;
-	border-left : 0px;
-	border-bottom : 0px;
-	border-right : 0px;
-	border-style : solid;
-	border-color : hsla(0,100%,0%,1);	
-  border-radius: 5px;
+.HEAD_RULE {
+	clear: both;
+	width: 100%;
+	border-top: 1px;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: hsla(0, 100%, 0%, 1);
+	border-radius: 5px;
 }
 
-.NAME
-{
-	padding-top : 10px;
-	display : block;
-	float : left;
-	font-size : 48px;
+.NAME {
+	padding-top: 10px;
+	display: block;
+	float: left;
+	font-size: 46px;
 }
 
-.CONTACT_LINKS
-{
-	clear : both;
-	padding-top : 5px;
-	display : block;
-	text-align : center;
+.CONTACT_LINKS {
+	clear: both;
+	padding-top: 5px;
+	display: block;
+	text-align: center;
 }
 
-.CONTACTS
-{
-	padding-left : 3px;
-	padding-right	: 3px;
-	text-decoration : none;
-	font-size : 15px;
-	font-weight : bold;
-	color : hsla(240,100%,50%,1);
+.CONTACTS {
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: hsla(240, 100%, 50%, 1);
 }
 
-.OBJECTIVE
-{
-	display : block;
-	float : right;
+.OBJECTIVE {
+	display: block;
+	float: right;
 }
 
 /*******************************************************************************************************************************************************/
 
-.INSTITUTE_NAME
-{
+.INSTITUTE_NAME {
 	clear: both;
-	display : block;
-	float : left;
-	font-weight : bold;
+	display: block;
+	float: left;
+	font-weight: bold;
 }
 
-.INSTITUTE_LOCATION
-{
-	display : block;
-	float : right;
+.INSTITUTE_LOCATION {
+	display: block;
+	float: right;
 }
 
-.DEGREE_NAME
-{
+.DEGREE_NAME {
 	clear: both;
-	display : block;
-	float : left;
+	display: block;
+	float: left;
 }
 
-.DEGREE_RESULT
-{
-	display : block;
-	float : left;
-	padding-left : 150px;
+.DEGREE_RESULT {
+	display: block;
+	float: left;
+	padding-left: 150px;
 }
 
-.DEGREE_COMPLITION_DATE
-{
-	display : block;
-	float : right;
+.DEGREE_COMPLITION_DATE {
+	display: block;
+	float: right;
 }
 
-.SPACE
-{
+.SPACE {
 	clear: both;
-	display : block;
+	display: block;
 }
 
 /*******************************************************************************************************************************************************/
 
-.ROLE
-{
+.ROLE {
 	clear: both;
-	display : block;
-	float : left;
+	display: block;
+	float: left;
 }
 
-.COMPLITION_DATE
-{
-	display : block;
-	float : right;
+.COMPLITION_DATE {
+	display: block;
+	float: right;
 }
 
-.DESCRIPTION
-{
+.DESCRIPTION {
 	clear: both;
-	display : block;
+	display: block;
 }
 
 /*******************************************************************************************************************************************************/
 
-.PROJECT_NAME
-{
+.PROJECT_NAME {
 	clear: both;
-	display : block;
-	float : left;
-	font-weight : bold;
+	display: block;
+	float: left;
+	font-weight: bold;
 }
 
-.PROJECT_COMPLITION_DATE
-{
-	display : block;
-	float : right;
+.PROJECT_COMPLITION_DATE {
+	display: block;
+	float: right;
 }

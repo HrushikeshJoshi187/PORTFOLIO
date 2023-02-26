@@ -1,0 +1,43 @@
+.service {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 22px;
+	border-color: var(--services_section_service_border_color);
+
+	font-family: var(--font_family_2);
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: var(--services_section_service_color);
+	background-color: var(--services_section_service_background_color);
+
+	cursor: pointer;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	transition: background-color 0.33s, color 0.33s;
+}
+
+.service_active {
+	color: var(--services_section_service_active_color);
+	background-color: var(--services_section_service_active_background_color);
+}
+
+@media (hover: hover) {
+	.service:hover {
+		color: var(--services_section_service_hover_color);
+		background-color: var(--services_section_service_hover_background_color);
+	}
+}
