@@ -7,16 +7,16 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'ONE_PAGE_RESUME_TEMPLATE',
+			title: 'PORTFOLIO',
 			templateContent: `
 				<!DOCTYPE html>
 				<html id="html" lang="en">
 					<head id="head">
 						<meta id="meta_0" charset="UTF-8">
 
-						<meta id="meta_1" name="application_name" content="One page resume">
+						<meta id="meta_1" name="application_name" content="Portfolio">
 
-						<meta id="meta_2" name="description" content="One page resume.">
+						<meta id="meta_2" name="description" content="A lot about me and the things I do!">
 
 						<meta id="meta_3" name="author" content="Hrushikesh Joshi">
 
@@ -26,10 +26,10 @@ module.exports = {
 
 						<meta id="meta_6" http-equiv="X-UA-Compatible" content="IE=edge">
 
-						<link rel="icon" type="image/png" href="./images/company_logo.f5a89ce5c5a20c424b7b.png">
+						<link rel="icon" type="image/png" href="./images/LOGO_512.4da30a3b235036db6606.png">
 
 						<title>
-							Hrushikesh Joshi Resume
+							Hrushikesh Joshi
 						</title>
 					</head>
 

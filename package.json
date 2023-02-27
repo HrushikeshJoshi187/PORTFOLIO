@@ -1,7 +1,7 @@
 {
-	"name": "one_page_resume_template",
+	"name": "portfolio",
 	"version": "1.0.0",
-	"description": "One page resume template.",
+	"description": "A lot about me and the things I do!",
 	"private": true,
 	"scripts": {
 		"test": "echo \"Error  : no test specified\" && exit 1",
@@ -10,14 +10,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/HrushikeshJoshi187/ONE_PAGE_RESUME_TEMPLATE.git"
+		"url": "git+https://github.com/HrushikeshJoshi187/PORTFOLIO.git"
 	},
 	"keywords": [],
 	"author": "Hrushikesh Joshi",
 	"bugs": {
-		"url": "https://github.com/HrushikeshJoshi187/ONE_PAGE_RESUME_TEMPLATE/issues"
+		"url": "https://github.com/HrushikeshJoshi187/PORTFOLIO/issues"
 	},
-	"homepage": "https://github.com/HrushikeshJoshi187/ONE_PAGE_RESUME_TEMPLATE#readme",
+	"homepage": "https://github.com/HrushikeshJoshi187/PORTFOLIO#readme",
 	"devDependencies": {
 		"@babel/core": "^7.19.3",
 		"@babel/preset-env": "^7.19.3",
@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.8.1"
 	}
 }
