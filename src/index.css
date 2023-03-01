@@ -3,16 +3,6 @@
 	src: url('../static/fonts/sriracha/sriracha.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: open_sans;
-	src: url('../static/fonts/open_sans/open_sans.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: open_sans_italic;
-	src: url('../static/fonts/open_sans/open_sans-italic.ttf') format('truetype');
-}
-
 * {
 	/* colors */
 	--color_0: rgba(0, 0, 0, 0);
@@ -25,7 +15,6 @@
 
 	/* fonts */
 	--font_family_0: sriracha;
-	--font_family_1: sriracha;
 
 	margin: 0px;
 	outline: 0px;
@@ -33,7 +22,7 @@
 	padding: 0px;
 	box-sizing: border-box;
 
-	font-family: var(--font_family_1, sans-serif);
+	font-family: var(--font_family_0, sans-serif);
 
 	background-color: var(--color_0);
 	color: var(--color_1);
